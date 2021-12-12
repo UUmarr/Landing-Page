@@ -1,0 +1,56 @@
+﻿body {
+font-family:Arial;
+color:black;
+}
+ .split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+background: rgba(21, 101, 216, 0.9);
+background-color: white;
+}
+
+.right {
+    right: 0;
+    background-color: white;
+} 
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+ {
+    box-sizing: border-box;
+}
+
+
+.container {
+    padding: 16px;
+    background-color: white;
+}
+h1{
+    position: absolute;
+    width: 608px;
+    height: 160px;
+    font-family: Bely Display;
+    color: #303031;
+}
+
+.registerbtn {
+    background-color: #71a894;
+    color: white;
+    padding: 50px;
+    border-radius: 8px;
+}
